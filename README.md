@@ -47,3 +47,7 @@ Sonra tarayıcıda `http://localhost:8000` adresine gidin.
 4. Bir iki dakika sonra oyun `https://<kullanıcı-adı>.github.io/maskeli-fiiller/` adresinde açılır.
 
 İnternet bağlantısı olmayan bir fuar standında oyun yine çalışır; yalnızca yazı tipleri sistem yazı tipine döner.
+
+## Lisans
+
+MIT Lisansı. Ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
