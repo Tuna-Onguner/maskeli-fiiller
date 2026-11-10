@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maskeli Fiiller</title>
+  <meta name="description" content="Maskeli Fiiller: fiilimsileri bulup türünü söylediğin dedektif temalı Türkçe oyunu (8. sınıf, LGS).">
+  <meta name="theme-color" content="#1d1536">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='50' font-size='50'%3E%F0%9F%8E%AD%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="brand" id="brand" type="button" aria-label="Ana menü">
+      <span class="brand-mask" aria-hidden="true"></span>
+      <span>Maskeli Fiiller</span>
+    </button>
+    <nav class="topnav" aria-label="Yardım">
+      <button type="button" class="nav-btn" id="btn-rules">Kurallar</button>
+      <button type="button" class="nav-btn" id="btn-defter"><span class="hide-sm">Dedektif </span>Defteri</button>
+      <button type="button" class="nav-btn icon-only" id="btn-sound" aria-label="Sesi kapat" title="Ses">🔊</button>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <div id="modal-root"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <p class="noscript">Bu oyun JavaScript ile çalışır. Lütfen tarayıcınızda JavaScript'i açın.</p>
+  </noscript>
+
+  <script src="js/data.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
