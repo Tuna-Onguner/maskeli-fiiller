@@ -2,6 +2,8 @@
 
 Fiilimsileri bulup türünü söylediğin, dedektif temalı bir Türkçe oyunu. 8. sınıf (LGS) fiilimsi konusu için hazırlandı; TÜBİTAK 4006-B Bilim Fuarı tasarım projesinin tarayıcı sürümüdür.
 
+**Oyna:** https://maskeli-fiiller.com
+
 > Kelimeler Sarayı'nda maskeli balo var. Bazı fiiller ek takıp kılık değiştirmiş: kimi isim, kimi sıfat, kimi zarf gibi davranıyor. Oyuncular dedektiftir; maskeli fiilleri yakalar ve hangi maskeyi taktıklarını bulurlar.
 
 | Tür | Maske |
@@ -45,6 +47,8 @@ Sonra tarayıcıda `http://localhost:8000` adresine gidin.
 2. Deponun **Settings → Pages** sayfasına gidin.
 3. **Build and deployment → Source** için **Deploy from a branch** seçin; dal olarak `main`, klasör olarak `/ (root)` seçip kaydedin.
 4. Bir iki dakika sonra oyun `https://<kullanıcı-adı>.github.io/maskeli-fiiller/` adresinde açılır.
+
+Bu depo `maskeli-fiiller.com` alan adını kullanır; adres, kökteki `CNAME` dosyasında yazılıdır. Depoyu kendi hesabınıza kopyalarsanız bu dosyayı silin ya da kendi alan adınızla değiştirin.
 
 İnternet bağlantısı olmayan bir fuar standında oyun yine çalışır; yalnızca yazı tipleri sistem yazı tipine döner.
 
